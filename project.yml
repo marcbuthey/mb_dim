@@ -1,0 +1,7 @@
+id: 'faac0858-8792-4ea0-b192-08dd6c608164'
+name: 'mb'
+description: ''
+version: 'v1.5'
+configuration:
+  id: 'biGENIUS.Implementation.Generator.Dimensional.Mssql'
+  version: '1.8.0'
