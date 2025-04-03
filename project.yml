@@ -5,3 +5,8 @@ version: 'v1.5'
 configuration:
   id: 'biGENIUS.Implementation.Generator.Dimensional.Mssql'
   version: '1.8.0'
+sourceSystems:
+  - id: '2487504b-f589-44aa-9734-03b8f775de42'
+    name: 'C11-K70XRW53J35\SQLEXPRESS'
+    description: ''
+    sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
