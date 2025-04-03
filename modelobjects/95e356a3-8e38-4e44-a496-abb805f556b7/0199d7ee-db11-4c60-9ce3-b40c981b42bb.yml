@@ -1,0 +1,54 @@
+id: '0199d7ee-db11-4c60-9ce3-b40c981b42bb'
+name: 'product_reviews'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'ce11cef4-4166-4de9-aa04-033cad7590c6'
+    name: 'product_name'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 255
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: 'f3bb0c75-680a-4844-ae1a-24a2349bd9ad'
+    name: 'rating'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
+  - id: '8c2e433f-dd4a-4b7d-881e-fce78b608496'
+    name: 'avg_rating'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
+  - id: '2a94ba02-2168-483a-8629-0083ebd2ee97'
+    name: 'review'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 4000
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+tags:
+  - '$discovery#id#c749f497-46ea-4ff6-aa35-f9276f2d0e32'
+  - '$initial#name#product_reviews'
+  - '$sourcesystem#id#2487504b-f589-44aa-9734-03b8f775de42'

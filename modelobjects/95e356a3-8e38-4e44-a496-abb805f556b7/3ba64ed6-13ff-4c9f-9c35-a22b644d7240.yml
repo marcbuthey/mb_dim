@@ -1,0 +1,100 @@
+id: '3ba64ed6-13ff-4c9f-9c35-a22b644d7240'
+name: 'store_orders'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '3d051c3e-e38a-499f-90a8-b48792ce312a'
+    name: 'total'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 12
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '0decab60-aaae-4c9b-b652-af950d2eb8b3'
+    name: 'store_name'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 255
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '09469193-9243-4be6-ad30-e80c1e88bdab'
+    name: 'address'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 512
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '3e00534b-cf75-4e09-9f55-7b748a7d79e5'
+    name: 'latitude'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 9
+      scale: 6
+  - id: '37400c9b-770e-4aed-8069-4d92f48db309'
+    name: 'longitude'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 9
+      scale: 6
+  - id: '988ba219-b96c-4c82-bcb9-9c1c9ea89c3e'
+    name: 'order_status'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 10
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '2e6c3c8e-6cec-475a-b32f-3a47cf36369f'
+    name: 'order_count'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
+  - id: '3bada4fe-83fb-4dd4-97fe-7c433d9fb3b0'
+    name: 'total_sales'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 38
+      scale: 2
+tags:
+  - '$discovery#id#c749f497-46ea-4ff6-aa35-f9276f2d0e32'
+  - '$initial#name#store_orders'
+  - '$sourcesystem#id#2487504b-f589-44aa-9734-03b8f775de42'

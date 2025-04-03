@@ -9,4 +9,5 @@ sourceSystems:
   - id: '2487504b-f589-44aa-9734-03b8f775de42'
     name: 'C11-K70XRW53J35\SQLEXPRESS'
     description: ''
+    activeDiscovery: 'c749f497-46ea-4ff6-aa35-f9276f2d0e32'
     sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'

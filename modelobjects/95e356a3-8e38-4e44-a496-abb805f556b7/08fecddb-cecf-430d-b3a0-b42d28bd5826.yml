@@ -1,0 +1,98 @@
+id: '08fecddb-cecf-430d-b3a0-b42d28bd5826'
+name: 'customer_order_products'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '787b5f1f-a0ec-4ee1-a1aa-c849569493a3'
+    name: 'order_id'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
+  - id: 'a89f360a-836a-4cb8-b7e6-b09353bc53fa'
+    name: 'order_tms'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'ee219fec-13ea-493e-9128-39a348ca0995'
+  - id: '8aa32236-1555-49cc-b725-a1b934f2d043'
+    name: 'order_status'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 10
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '00d5fdbf-0275-4f23-bdf6-9a0fce6a04e0'
+    name: 'customer_id'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
+  - id: 'c4586907-bf47-49cb-a5ef-a38880e650ee'
+    name: 'email_address'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 255
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: 'aece8b16-a803-44a0-897d-3cffbe1b0c41'
+    name: 'full_name'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 255
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '999dedd1-9005-4027-aa36-257ed4f748ee'
+    name: 'order_total'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 38
+      scale: 2
+  - id: 'fda6a38b-9601-4d31-a86a-8f850b976cf9'
+    name: 'items'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 8000
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+tags:
+  - '$discovery#id#c749f497-46ea-4ff6-aa35-f9276f2d0e32'
+  - '$initial#name#customer_order_products'
+  - '$sourcesystem#id#2487504b-f589-44aa-9734-03b8f775de42'

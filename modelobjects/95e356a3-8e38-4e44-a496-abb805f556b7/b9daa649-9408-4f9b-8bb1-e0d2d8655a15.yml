@@ -1,0 +1,54 @@
+id: 'b9daa649-9408-4f9b-8bb1-e0d2d8655a15'
+name: 'product_orders'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '179627ab-ff55-477a-9636-19bbd5f5f9f9'
+    name: 'product_name'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 255
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '128919e2-c76b-4751-bbda-2febd3eb59b7'
+    name: 'order_status'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 10
+      platformDataTypeId: '9245c3e9-05f8-4e48-962c-e1b3c49bc239'
+  - id: '61f4fddc-2e7d-41f5-ad07-7a9b2fe2f7d3'
+    name: 'total_sales'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 38
+      scale: 2
+  - id: '0a6e6d0b-7897-47db-9fbd-4d47b0b47682'
+    name: 'order_count'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
+tags:
+  - '$discovery#id#c749f497-46ea-4ff6-aa35-f9276f2d0e32'
+  - '$initial#name#product_orders'
+  - '$sourcesystem#id#2487504b-f589-44aa-9734-03b8f775de42'
